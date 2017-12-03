@@ -1,3 +1,11 @@
+advaith1/time-machine is a modified version of the official Time Machine theme.
+- add favicon support (use `favicon` in config.yml)
+- remove download bar and github link
+- add support for changing author name (use `author` in config.yml)
+- remove "powered by github pages"
+
+---
+
 # The Time machine theme
 
 [![Build Status](https://travis-ci.org/pages-themes/time-machine.svg?branch=master)](https://travis-ci.org/pages-themes/time-machine) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-time-machine.svg)](https://badge.fury.io/rb/jekyll-theme-time-machine)
