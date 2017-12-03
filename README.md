@@ -5,6 +5,7 @@ advaith1/time-machine is a modified version of the official Time Machine theme.
 - remove download bar and github link
 - add support for changing author name (use `author` in config.yml)
 - remove "powered by github pages"  
+
 [Preview it here](https://advaith1.github.io/time-machine/)  
 Add it to your GitHub Pages site by adding the following line to your config.yml: `remote_theme: advaith1/time-machine`
 
