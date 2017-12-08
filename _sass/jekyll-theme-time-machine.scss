@@ -32,6 +32,9 @@ h1.title {
   font-style: italic;
   font-family:Georgia, serif;
   text-align: center;
+}
+h1.title:hover{
+  text-decoration: underline;
   color: black;
 }
 
