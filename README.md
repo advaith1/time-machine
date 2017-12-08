@@ -15,9 +15,16 @@ The following info is for the original Time Machine theme.
 
 # The Time machine theme
 
-[![Build Status](https://travis-ci.org/pages-themes/time-machine.svg?branch=master)](https://travis-ci.org/pages-themes/time-machine) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-time-machine.svg)](https://badge.fury.io/rb/jekyll-theme-time-machine)
+[![Build Status](https://travis-ci.org/advaith1/time-machine.svg?branch=master)](https://travis-ci.org/advaith1/time-machine)
 
-*Time machine is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/time-machine), or even [use it today](#usage).*
+*Time machine is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](https://advaith1.github.io/time-machine), or even [use it today](#usage).*
+
+advaith1/time-machine is a modified version of the official Time Machine theme.
+- add favicon support (use `favicon` in config.yml)
+- remove download bar and github link
+- add support for changing author name and authorurl (use `author` and `authorurl` in config.yml)
+- remove "powered by github pages"  
+- Make site title link to homepage
 
 ![Thumbnail of time-machine](thumbnail.png)
 
@@ -28,7 +35,7 @@ To use the Time machine theme:
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    theme: jekyll-theme-time-machine
+    remote_theme: advaith1/time-machine
     ```
 
 2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
@@ -55,6 +62,9 @@ Additionally, you may choose to set the following optional variables:
 ```yml
 show_downloads: ["true" or "false" to indicate whether to provide a download URL]
 google_analytics: [Your Google Analytics tracking ID]
+favicon: [URL of website favicon]
+author: [Name to display for author]
+authorurl: [URL to link to for author]
 ```
 
 ### Stylesheet
@@ -75,14 +85,14 @@ If you'd like to add your own custom styles:
 
 If you'd like to change the theme's HTML layout:
 
-1. [Copy the original template](https://github.com/pages-themes/time-machine/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+1. [Copy the original template](https://github.com/pages-themes/advaith1/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
 
 ## Roadmap
 
-See the [open issues](https://github.com/pages-themes/time-machine/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/advaith1/time-machine/issues) for a list of proposed features (and known issues).
 
 ## Project philosophy
 
@@ -96,7 +106,7 @@ Interested in contributing to Time machine? We'd love your help. Time machine is
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/time-machine`)
+1. Clone down the theme's repository (`git clone https://github.com/advaith1/time-machine`)
 2. `cd` into the theme's directory
 3. Run `script/bootstrap` to install the necessary dependencies
 4. Run `bundle exec jekyll serve` to start the preview server
